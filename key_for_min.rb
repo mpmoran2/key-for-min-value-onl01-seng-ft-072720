@@ -3,8 +3,8 @@
 
 
 def key_for_min_value(name_hash)
-  lowest_value = 0 #setting these up
-  lowest_key = nil
+  lowest_value = 0 #setting these up 
+  lowest_key = nil #nil because that is the things like "carrot"
   name_hash.each do |key,value|
       if lowest_value == 0 || value < lowest_value #if the lowval is current or less than the lowval
       lowest_value = value  #make lowval that value and lowkey that key
